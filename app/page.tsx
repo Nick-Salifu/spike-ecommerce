@@ -1,4 +1,4 @@
-import Carousel from "@/components/carousel";
+import { Carousel } from "@/components/carousel";
 import { Button } from "@/components/ui/button";
 import { stripe } from "@/lib/stripe";
 import Image from "next/image";
@@ -28,7 +28,7 @@ export default async function Home() {
       </section>
 
       <section>
-        <Carousel />
+        <Carousel products={products.data} />
       </section>
     </div>
   );
