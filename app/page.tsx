@@ -27,7 +27,7 @@ export default async function Home() {
         </div>
       </section>
 
-      <section>
+      <section className="pt-24">
         <Carousel products={products.data} />
       </section>
     </div>
