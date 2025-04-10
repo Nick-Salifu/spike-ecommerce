@@ -7,9 +7,8 @@ export default async function ProductPage({params}: {params: {id: string}}) {
         expand: ["default_price"]
     })
 
+    const plainProduct = JSON.parse(JSON.stringify(product))
     return (
-        <div>
-            <ProductDetails product={product} />
-        </div>
+         <ProductDetails product={plainProduct} />
     )
 }
