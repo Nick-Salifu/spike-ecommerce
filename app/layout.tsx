@@ -3,8 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "Spike",
-  description: "Spike E-commerce",
+  title: "MyStore",
+  description: "Buy cool products",
 };
 
 export default function RootLayout({
