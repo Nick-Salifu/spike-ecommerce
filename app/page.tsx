@@ -18,7 +18,7 @@ export default async function Home() {
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
               Welcome to spike
             </h2>
-            <p className="text-neutral-600">Discover the best and latest products at affordable prices.</p>
+            <p className="text-neutral-600">Shop the latest trends, exclusive deals, and curated collections just for you. You can explore and shop many different collections from various brands here. You can hit the browse all products button below and start shopping. Welcome aboard!</p>
             <Button asChild variant="default" className="inline-flex items-center rounded-full px-6 py-3 bg-black text-white">
               <Link href="/products" className="inline-flex items-center justify-center rounded-full px-6 py-3">Browse All Products</Link>
             </Button>
