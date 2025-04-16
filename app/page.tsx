@@ -23,7 +23,7 @@ export default async function Home() {
               <Link href="/products" className="inline-flex items-center justify-center rounded-full px-6 py-3">Browse All Products</Link>
             </Button>
           </div>
-          <Image alt="Banner Image" width={450} height={450} src={products.data[0].images[0]} className="rounded" />
+          <Image alt="Banner Image" width={500} height={500} src={products.data[0].images[0]} className="rounded" />
         </div>
       </section>
 
